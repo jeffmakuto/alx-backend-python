@@ -11,4 +11,4 @@ async def async_comprehension() -> List[float]:
     comprehensing over async_generator,
     then return the 10 random numbers
     """
-    return [_ async for _ in async_generator()]
+    return ([_ async for _ in async_generator()])

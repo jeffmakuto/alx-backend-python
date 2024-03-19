@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """ Run time for four parallel comprehensions """
-#!/usr/bin/env python3
-"""Mesures time"""
 import asyncio
 import time
 async_comprehension = __import__('1-async_comprehension').async_comprehension
